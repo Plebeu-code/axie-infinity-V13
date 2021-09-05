@@ -1,0 +1,36 @@
+{
+  "name": "axieInfinityV13",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "nodemon test.js",
+    "api": "nodemon src/server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "axios": "^0.21.1",
+    "better-logging": "^4.5.0",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "discord.js": "^13.0.0",
+    "dotenv": "^10.0.0",
+    "duckly": "^0.1.1",
+    "erela.js": "^2.3.3",
+    "express": "^4.17.1",
+    "graphql": "^15.5.2",
+    "helmet": "^4.6.0",
+    "knex": "^0.95.10",
+    "mongoose": "^5.13.6",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12"
+  }
+}
